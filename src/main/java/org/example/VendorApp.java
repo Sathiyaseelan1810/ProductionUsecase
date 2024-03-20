@@ -54,7 +54,9 @@ public class VendorApp {
         productsMap.put("P-014", "Logistics Portal");
         Product product = new Product(productsMap);
         Client client = new Client("Canadian-Tire Corporation", product);
+        //Committing...
         return new Vendor("EPAM Systems", client);
+
     }
 
     private static Vendor scenarioWithNoProductsMapForProduct() {
